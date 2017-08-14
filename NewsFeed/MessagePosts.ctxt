@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=username\ content
+comment0.target=MessagePosts(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ MessagePosts\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=void\ printStr()
+numComments=3
