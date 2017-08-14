@@ -1,15 +1,16 @@
 #BlueJ class context
-comment0.params=
-comment0.target=NewsFeed()
-comment1.params=post
-comment1.target=void\ addPost(Posts)
-comment2.params=
-comment2.target=void\ start()
+comment0.target=NewsFeed
+comment0.text=\n\ Write\ a\ description\ of\ class\ NewsFeed\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=NewsFeed()
+comment2.params=post
+comment2.target=void\ addPost(Posts)
 comment3.params=
-comment3.target=java.lang.String\ toString()
+comment3.target=java.util.ArrayList\ getPosts()
 comment4.params=
-comment4.target=void\ printNewsFeed()
-comment5.params=args
-comment5.target=void\ main(java.lang.String[])
-comment5.text=public\ JPanel\ messagePostPanel(String\ content){\n\ \ \ \ \ \ \ \ JPanel\ retPanel\ \=\ new\ JPanel();\n\ \ \ \ \ \ \ \ JLabel\ cLabel\ \=\ new\ JLabel(content);\n\ \ \ \ \ \ \ \ retPanel.add(cLabel);\n\ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ return\ retPanel;\n}
-numComments=6
+comment4.target=void\ randPosts()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=
+comment6.target=void\ printNewsFeed()
+numComments=7

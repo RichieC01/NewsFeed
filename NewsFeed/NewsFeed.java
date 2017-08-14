@@ -3,8 +3,15 @@ import java.util.ArrayList;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JLabel;
+import javax.swing.JMenuBar;
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
+
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 /**
  * Write a description of class NewsFeed here.
  * 
@@ -16,12 +23,17 @@ public class NewsFeed
     ArrayList<Posts> postsList = new ArrayList<>();
     
     public NewsFeed(){
-        start();
+        randPosts();
     }
+    
     public void addPost(Posts post){
         postsList.add(post);
     }
-    public void start(){
+    public ArrayList getPosts(){
+        return postsList;
+    }
+    
+    public void randPosts(){
         String un = "anon";
         String c = "content";
         
@@ -38,29 +50,7 @@ public class NewsFeed
         
         return retStr;
     }
-    
     public void printNewsFeed(){
         System.out.println(this.toString());
-    }
-    
-    /*public JPanel messagePostPanel(String content){
-        JPanel retPanel = new JPanel();
-        JLabel cLabel = new JLabel(content);
-        retPanel.add(cLabel);
-       
-        return retPanel;
-    }*/
-    
-    public static void main(String[]args){
-        NewsFeed newsFeed = new NewsFeed();
-        newsFeed.printNewsFeed();
-        
-        JPanel panel = new JPanel();
-        panel.setLayout(new BorderLayout());
-        
-        JFrame frame = new JFrame();
-        frame.setContentPane(panel);
-        frame.pack();
-        frame.setVisible(true);
     }
 }

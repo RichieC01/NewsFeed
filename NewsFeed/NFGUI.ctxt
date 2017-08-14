@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=NFGUI
+comment0.text=\n\ Write\ a\ description\ of\ class\ NFGUI\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=NFGUI()
+comment2.params=panel\ post
+comment2.target=void\ postGUI(javax.swing.JPanel,\ Posts)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=public\ static\ void\ addPosts(){\n\ \ \ \ \ \ \ \ for\ (Posts\ post\:\ newsfeed.getPosts()){\n\ \ \ \ \ \ \ \ \ \ \ \ postGUI(panel,\ post);\n\ \ \ \ \ \ \ \ }\n}
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=6

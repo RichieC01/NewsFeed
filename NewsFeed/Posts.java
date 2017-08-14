@@ -24,12 +24,12 @@ public class Posts
     public String getDate(){
         return df.format(date);
     }
-    public String getUser(){
+    public String getUsername(){
         return username;
     }
     public String toString(){
         String retStr = "";
-        retStr += getDate() + "\n" + getUser();
+        retStr += getDate() + "\n" + getUsername();
         
         return retStr;
     }
@@ -37,6 +37,6 @@ public class Posts
     
     public void printStr(){
         System.out.println(getDate());
-        System.out.println(getUser());
+        System.out.println(getUsername());
     }
 }

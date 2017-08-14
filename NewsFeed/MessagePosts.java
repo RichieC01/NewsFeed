@@ -21,7 +21,6 @@ public class MessagePosts extends Posts
         
         return retStr;
     }
-    
     public void printStr(){
         super.printStr();
         System.out.println(content);
